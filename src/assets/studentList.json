@@ -1,0 +1,43 @@
+{ 
+    "studentList":[{
+    "id":1,
+    "name":"abhishek",
+    "class":"12",
+    "section":"A",
+    "age":12,
+    "height":6.5,
+    "percentage":70
+
+},
+{
+    "id":2,
+    "name":"shivam",
+    "class":"12",
+    "section":"A",
+    "age":15,
+    "height":5.5,
+    "percentage":30
+
+},
+{
+    "id":3,
+    "name":"ram",
+    "class":"16",
+    "section":"A",
+    "age":12,
+    "height":7,
+    "percentage":90
+
+},
+{
+    "id":4,
+    "name":"Hary",
+    "class":"12",
+    "section":"A",
+    "age":16,
+    "height":5.5,
+    "percentage":50
+
+}]
+
+}

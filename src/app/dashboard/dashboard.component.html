@@ -1,0 +1,12 @@
+
+
+
+
+    <div class="row">
+        <div class="cell">
+            <app-student-list></app-student-list>
+        </div>
+        <div class="cell">
+            <app-student-details *ngIf="studentService.viewStudentDetails | async"></app-student-details>
+        </div>
+    </div>

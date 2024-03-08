@@ -1,10 +1,12 @@
 # SolidPrinciple
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+This project was base on SOLID principle of angular.
+This project is about list of school student in a grid. In this project we can sort the list by name, id and age.
+We can also see all the details of every student
 
-## Development server
+## Single Responsibility Principle (SRP):
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
 
 ## Code scaffolding
 

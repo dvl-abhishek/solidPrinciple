@@ -1,0 +1,23 @@
+    <button (click)="filterName()">Sort by name</button>
+    <button (click)="filterId()">Sort by id</button>
+    <button (click)="filterAge()">Sort by Age</button>
+    <button (click)="totalStudent()">Total Student</button>
+    <button (click)="totalPassStudent()">Total pass</button>
+  <Br/>
+  <h4>Total Student = {{ totalStudentInClass }}</h4>
+  <h4>Total Pass Student = {{ totalPassInClass }}</h4>
+<table>
+  <caption>List of students</caption>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Percentage</th>
+      <th>View Details</th>
+    </tr>
+    <tr *ngFor="let student of studentList">
+      <td> {{ student.id }} </td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.percentage }}</td>
+      <td><button (click)="viewDetails(student.id)">View Details </button></td>
+    </tr>
+</table>
